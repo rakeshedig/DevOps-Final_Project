@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome to Clark University</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="main-body">
+    <div class="container">
+        <h1>Welcome to Clark University, Worcester, MA, USA</h1>
+
+        <h3>This is the final project for Cloud DevOps & Automation Course(Fall 2025)</h3>
+        <div class="student-info">
+            <h3>Done by:</h3>
+            <p><strong>Rakesh Goud Edigi</strong> and <strong>Harini Sanamandra</strong></p>
+        </div>
+
+        <div class="info-section">
+            <h3>Project Overview:</h3>
+            <p>This project demonstrates a containerized web application. It includes a frontend that fetches an image
+                from the backend service and displays status information. The goal is to showcase DevOps practices
+                including containerization, service proxying, and Kubernetes-based orchestration.</p>
+        </div>
+
+        <div class="info-section">
+            <h3>Technology Stack:</h3>
+            <ul>
+                <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript served via nginx (or static server)</li>
+                <li><strong>Backend:</strong> Flask (Python) RESTful API</li>
+                <li><strong>Containerization:</strong> Docker</li>
+                <li><strong>Orchestration:</strong> Kubernetes (Minikube / cluster)</li>
+            </ul>
+        </div>
+
+        <div class="info-section">
+            <h3>Key Features:</h3>
+            <ul>
+                <li>Microservices architecture with separate frontend and backend</li>
+                <li>Backend-proxied image served below all text</li>
+                <li>Simple REST endpoint for status and health checks</li>
+                <li>Dockerized deployment for consistent environments</li>
+            </ul>
+        </div>
+
+        <button id="colorBtn">Adjust Transparency</button>
+        <p id="status"></p>
+
+        <!-- Backend image below all text, centered -->
+        <div class="image-container">
+            <img id="backend-image" src="http://backend:5000/image" alt="From backend" />
+        </div>
+
+        <div class="info-note">
+            <p>✨ Image served from Backend Service via Kubernetes internal DNS (http://backend:5000/image)</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
