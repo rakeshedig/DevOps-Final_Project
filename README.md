@@ -14,8 +14,7 @@ The project showcases microservices architecture, service proxying, and Kubernet
 
 🗂️ Project Structure
 
-<img width="882" height="740" alt="Screenshot 2025-11-25 at 8 43 45 PM" src="https://github.com/user-attachments/assets/a47a13f9-2437-4541-bfe6-296c27aa3304" />
-
+<img width="1718" height="684" alt="12792" src="https://github.com/user-attachments/assets/0ddada46-8869-44d5-8476-6d9275080fe0" />
 
 ⸻
 
