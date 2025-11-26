@@ -5,22 +5,22 @@ This project demonstrates containerized frontend and backend services deployed w
 
 ⸻
 
-🗂️ Project Structure
+Project Structure
 
 Devops_final/
-├── backend/                 # Flask backend service
+├── backend/                  # Flask backend service
 │   ├── app.py
 │   ├── requirements.txt
 │   └── Dockerfile
-├── frontend/                # Frontend static web application
+├── frontend/                 # Frontend static web application
 │   ├── index.html
 │   ├── style.css
 │   ├── script.js
 │   └── Dockerfile
-├── kubernetes/              # Kubernetes manifests
+├── kubernetes/               # Kubernetes manifests
 │   ├── backend-deployment.yaml
 │   ├── frontend-deployment.yaml
-└── README.md                # This file
+└── README.md                 # This file
 
 ⸻
 
