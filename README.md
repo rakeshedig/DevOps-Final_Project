@@ -14,22 +14,7 @@ The project showcases microservices architecture, service proxying, and Kubernet
 
 🗂️ Project Structure
 
-Devops_final/
-├── backend/ # Flask backend service
-│ ├── app.py
-│ ├── requirements.txt
-│ └── Dockerfile
-├── frontend/ # Frontend static web application
-│ ├── index.html
-│ ├── style.css
-│ ├── script.js
-│ └── Dockerfile
-├── kubernetes/ # Kubernetes manifests
-│ ├── backend-deployment.yaml
-│ ├── backend-service.yaml
-│ ├── frontend-deployment.yaml
-│ └── frontend-service.yaml
-└── README.md # This file
+<img width="882" height="740" alt="Screenshot 2025-11-25 at 8 43 45 PM" src="https://github.com/user-attachments/assets/a47a13f9-2437-4541-bfe6-296c27aa3304" />
 
 
 ⸻
